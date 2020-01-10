@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.HelloWorld</content>
+  <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>
