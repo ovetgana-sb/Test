@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.HelloWorld</content>
   <content>Catalog.Номенклатура</content>
+  <content>Catalog.ФизическиеЛица</content>
 </mdclass:Subsystem>

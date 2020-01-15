@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5568cb8c-3a1e-46fc-b478-02c89a3624d8">
+  <producedTypes>
+    <objectType typeId="ff8b68c2-57da-4e2a-8968-5bc1a87abaf6" valueTypeId="5cb77bbc-4fd0-4d37-8eb5-528f69ebf01a"/>
+    <refType typeId="ef383ffe-e075-4efd-8e2a-31f90bfc5e11" valueTypeId="69bfe173-3919-4cb3-8aea-9ca5b6b1de43"/>
+    <selectionType typeId="d29baecb-5ce2-49f7-a08f-9e43d2b78aa8" valueTypeId="155f7172-ecd0-469d-8f12-39da70514c2e"/>
+    <listType typeId="fd14ccb4-4246-4ccc-9b05-92737ecc7cc8" valueTypeId="75b60fd4-7462-40d8-b138-b1226d3e5bdf"/>
+    <managerType typeId="935ec989-1bdc-495c-980d-6d3023f09dd3" valueTypeId="3f8cb182-3164-4916-9fc1-75fc2163709b"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="78eb0bd1-ce7b-4ebc-a3ab-9bf1b546e931">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ffb7e1b-90e7-4e1f-8295-5fdbd402da85">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89face11-da41-4eea-9bb3-41f1cbea2d9d">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

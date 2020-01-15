@@ -33,6 +33,7 @@
   <roles>Role.Роль1</roles>
   <roles>Role.Роль2</roles>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <dataProcessors>DataProcessor.HelloWorld</dataProcessors>
   <dataProcessors>DataProcessor.HelloWorld2</dataProcessors>
   <dataProcessors>DataProcessor.HelloWorld3</dataProcessors>
