@@ -38,4 +38,5 @@
   <dataProcessors>DataProcessor.HelloWorld2</dataProcessors>
   <dataProcessors>DataProcessor.HelloWorld3</dataProcessors>
   <dataProcessors>DataProcessor.HelloWorld4</dataProcessors>
+  <dataProcessors>DataProcessor.HelloWorld5</dataProcessors>
 </mdclass:Configuration>
